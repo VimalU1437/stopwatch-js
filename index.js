@@ -52,6 +52,8 @@ reset.onclick = ()=>{
     SS = 0;
     MS = 0;
     display.textContent = "00 : 00 : 00 : 000";
+    castDivision.innerHTML = "";
+    count = 1;
 }
 
 cast.onclick = () =>{
